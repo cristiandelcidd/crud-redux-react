@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+}
+
+.table-dark {
+    background: var( --main-background );
+}
+
+.table-dark ~ tr {
+    width: 600px;
+}
+
+.table-dark tr th {
+    color: var( --white-color );
+    font-size: 23px;
+    font-weight: 400;
+    padding: 8px 0;
+    width: 33.3%;
+}

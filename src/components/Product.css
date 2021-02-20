@@ -1,0 +1,17 @@
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-item:nth-child( even ) {
+    background: var( --gray );
+}
+
+.product-item td {
+    padding: 3px;
+}

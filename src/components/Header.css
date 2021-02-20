@@ -1,0 +1,32 @@
+.navbar {
+    padding: 20px;
+}
+
+.new-post,
+.text-light {
+    color: var( --white-color );
+}
+
+.new-post {
+    background: var( --main-button );
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text-light {
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.text-light:hover {
+    color: var( --text-light-hover );
+}
+
+@media ( max-width: 768px ) {
+    .text-light,
+    .new-post {
+        display: block;
+        width: 100%;
+    }
+}
